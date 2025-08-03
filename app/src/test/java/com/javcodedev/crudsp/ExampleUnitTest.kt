@@ -1,4 +1,4 @@
-package com.example.trabajoandroid
+package com.javcodedev.crudsp
 
 import org.junit.Test
 

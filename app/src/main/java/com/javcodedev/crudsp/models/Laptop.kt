@@ -1,4 +1,4 @@
-package com.example.trabajoandroid.models
+package com.javcodedev.crudsp.models
 
 import com.google.gson.annotations.SerializedName
 

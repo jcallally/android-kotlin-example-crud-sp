@@ -1,13 +1,13 @@
-package com.example.trabajoandroid.activities
+package com.javcodedev.crudsp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.*
-import com.example.trabajoandroid.R
-import com.example.trabajoandroid.models.Laptop
-import com.example.trabajoandroid.utils.SharedPref
+import com.javcodedev.crudsp.R
+import com.javcodedev.crudsp.models.Laptop
+import com.javcodedev.crudsp.utils.SharedPref
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 

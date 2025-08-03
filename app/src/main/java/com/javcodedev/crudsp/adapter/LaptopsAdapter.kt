@@ -1,4 +1,4 @@
-package com.example.trabajoandroid.adapter
+package com.javcodedev.crudsp.adapter
 
 import android.annotation.SuppressLint
 import android.app.Activity
@@ -10,9 +10,9 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.recyclerview.widget.RecyclerView
-import com.example.trabajoandroid.R
-import com.example.trabajoandroid.models.Laptop
-import com.example.trabajoandroid.utils.SharedPref
+import com.javcodedev.crudsp.R
+import com.javcodedev.crudsp.models.Laptop
+import com.javcodedev.crudsp.utils.SharedPref
 
 class LaptopsAdapter(private val context: Activity, private var laptops: ArrayList<Laptop>): RecyclerView.Adapter<LaptopsAdapter.LaptopsViewHolder>()  {
 

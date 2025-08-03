@@ -1,4 +1,4 @@
-package com.example.trabajoandroid.activities
+package com.javcodedev.crudsp.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,10 +8,10 @@ import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.trabajoandroid.R
-import com.example.trabajoandroid.adapter.LaptopsAdapter
-import com.example.trabajoandroid.models.Laptop
-import com.example.trabajoandroid.utils.SharedPref
+import com.javcodedev.crudsp.R
+import com.javcodedev.crudsp.adapter.LaptopsAdapter
+import com.javcodedev.crudsp.models.Laptop
+import com.javcodedev.crudsp.utils.SharedPref
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import java.util.*

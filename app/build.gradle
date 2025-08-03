@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.trabajoandroid'
+    namespace 'com.javcodedev.crudsp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.example.trabajoandroid"
+        applicationId "com.javcodedev.crudsp"
         minSdk 24
         targetSdk 33
         versionCode 1

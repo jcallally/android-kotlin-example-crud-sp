@@ -1,4 +1,4 @@
-package com.example.trabajoandroid.utils
+package com.javcodedev.crudsp.utils
 
 import android.app.Activity
 import android.content.Context
@@ -13,7 +13,7 @@ class SharedPref(activity: Activity) {
 
     //Constructor
     init {
-        pref = activity.getSharedPreferences("com.example.trabajoandroid", Context.MODE_PRIVATE)
+        pref = activity.getSharedPreferences("com.javcodedev.crudsp", Context.MODE_PRIVATE)
     }
 
     //Guardamos un objeto en SharedPrefence (Any = Cualquier tipo)
